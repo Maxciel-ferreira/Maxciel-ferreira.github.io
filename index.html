@@ -1,10 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
-    <title>Meu primeiro projeto</title>
+    <title>Maxciel Ferreira</title>
+    <meta name="description" content="Sou professor no SENAI, gosto de jogar bola e tenho uma cachorra chamada Amélia.">
+    <meta property="og:description" content="Sou residente de Jaraguá do Sul à 7 anos. Trabalho na WEG a 5 anos, dando suporte no sistema de viagem AR&B.">
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/4234986?s=460&v=4">
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/326/PNG/256/Letter_M_blue_34943.png">
+    <style>
+      body {
+        background-image: url("http://www.rogierbos.com/wp-content/uploads/2014/12/Louwman-Museum-Trip-008.jpg");opacity: 500;filter:alpha(opacity=250);
+        font-family: monospace;
+        text-align: center;
+      }
+      h1 {
+        font-size: 30px;
+        color: #FFFFFF;
+      }
+      h2 {
+        font-size: 15px;
+        margin: 10px 0;
+        color: #000000
+      }
+      a {
+        color: #000000;
+        text-decoration: none;
+      }
+      section {
+        margin: 15px 0;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 95vh;
+      }
+      header {
+        color: #000000;
+      }
+      header .photo img {
+        border-radius: 100%;
+      }
+      header .basic-info .current-role {
+        font-size: 20px;
+        color: #000000;
+      }
+      header .sub-current-role {
+        font-size: 16px;
+        margin-bottom: 25px;
+      }
+      .contact {
+        margin-top: 0;
+        color: #000000;
+      }
+      .contact h2 {
+        display: #000000;
+        color: #000000;
+      }
+      .socials {
+        margin: 15px 0;
+      }
+      .tags .tag{
+        padding: 6px 10px;
+        background-color: #AB82FF;
+        font-size: 12px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 5px 0;
+        color: #000000;
+      }
+      .companies img {
+        margin: 10px;
+        height: 25px;
+      }
+      .time{
+        color: #8B0000;
+      }
+      .tags .tag:hover{
+       box-shadow:
+                1px 1px #8B0000,
+                2px 2px #8B0000,
+                3px 3px #8B0000;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+      }
+      .current-role:hover{
+             -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+      }
+      h1:hover{
+             -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+      }
+      }
+    </style>
   </head>
-  <body>Olá mundo!</body>
-</html>Esse é meu site!
+
+  <body>
+    <main class="container">
+      <header>
+        <div class="photo">
+          <img src="https://scontent.fbnu3-1.fna.fbcdn.net/v/t1.0-9/524311_355063617931694_1870416397_n.jpg?_nc_cat=0&_nc_eui2=AeHVnRU0-O2wzgTECXhnIcR5k_cH3oI4a_xiiUnTAUtoFHLB7sy2hKaVK76g3_Tt5bfV-6kxifJ9VbU8PV7L1pcMb0Z94j9LQqyV08yz2TKX_w&oh=66b84a058f459a8bd87b8793226f6de9&oe=5BE99DD5" alt="Maxciel Ferreira" width="139" height="142">
+        </div>
+        <div class="basic-info"><I>
+          <h1>Maxciel Ferreira</h1>
+          <p class="current-role">Consultor de Viagens</p>
+          <p class="sub-current-role">Sou residente de Jaraguá do Sul à 7 anos. Trabalho na WEG a 5 anos, dando suporte no sistema de viagem AR&B.</p></I>
+        </div>
+      </header>
+      <section class="contact">
+        <h2 aria-hidden="true">Contato</h2>
+        <div><img src="https://imagepng.org/wp-content/uploads/2018/03/gmail-cone-icon-7.png" width="12" margin-bottom ="-10px" ><a href="mailto:maxcielbr905@gmail.com">maxcielbr905@gmail.com</a></div>
+        <div><img src="https://cdn-images-1.medium.com/max/1125/1*dDNpLKu_oTLzStsDTnkJ-g.png" width="50" margin-bottom ="-18px" ><a href="https://github.com/Maxciel-ferreira" target="_blank" rel="noopener">@Maxciel-ferreira</a></div>
+        <div><img src="https://cdn.icon-icons.com/icons2/1043/PNG/512/social_media_icons_flat_shadow_set_512x512_0010_linkedin_icon-icons.com_76459.png" width="12" margin-bottom ="-2px" ><a href="https://www.linkedin.com/in/maxciel-ferreira-a2a90249/" target="_blank" rel="noopener">Maxciel Ferreira</a></div>
+      </section>
+      <section class="tags">
+        <h2>Experiência</h2>
+
+        <span  class="tag">Suporte ao Usuário</span>
+        <span  class="tag">Consultor de Viagens</span>
+
+      </section>
+      <SCRIPT LANGUAGE="JAVASCRIPT">
+
+var now = new Date();
+var mName = now.getMonth() +1 ;
+var dName = now.getDay() +1;
+var dayNr = now.getDate();
+var yearNr=now.getYear();
+if(dName==1) {Day = "Domingo";}
+if(dName==2) {Day = "Segunda-feira";}
+if(dName==3) {Day = "Terça-feira";}
+if(dName==4) {Day = "Quarta-feira";}
+if(dName==5) {Day = "Quinta-feira";}
+if(dName==6) {Day = "Sexta-feira";}
+if(dName==7) {Day = "Sábado";}
+if(mName==1){Month = "Janeiro";}
+if(mName==2){Month = "Fevereiro";}
+if(mName==3){Month = "Março";}
+if(mName==4){Month = "Abril";}
+if(mName==5){Month = "Maio";}
+if(mName==6){Month = "Junho";}
+if(mName==7){Month = "Julho";}
+if(mName==8){Month = "Agosto";}
+if(mName==9){Month = "Setembro";}
+if(mName==10){Month = "Outubro";}
+if(mName==11){Month = "Novembro";}
+if(mName==12){Month = "Dezembro";}
+if(yearNr < 2000) {Year = 1900 + yearNr;}
+else {Year = yearNr;}
+var todaysDate =(dayNr + "/" + Month + "/" + Year);
+
+document.write('  '+todaysDate);
+
+//-->
+</SCRIPT>
+
+
+<span ID="Clock">00:00:00</span>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+  var Elem = document.getElementById("Clock");
+  function Horario(){
+    var Hoje = new Date();
+    var Horas = Hoje.getHours();
+    if(Horas < 10){
+      Horas = "0"+Horas;
+    }
+    var Minutos = Hoje.getMinutes();
+    if(Minutos < 10){
+      Minutos = "0"+Minutos;
+    }
+    var Segundos = Hoje.getSeconds();
+    if(Segundos < 10){
+      Segundos = "0"+Segundos;
+    }
+    Elem.innerHTML = Horas+":"+Minutos+":"+Segundos;
+    }
+    window.setInterval("Horario()",1000);
+//-->
+</SCRIPT>
+    </main>
+
+  </body>
+</html>
